@@ -258,6 +258,7 @@ workflows:
                 - ruby_27_mysql2
                 - ruby_26_mysql2
               gemfile:
+                - "./gemfiles/rails_70.gemfile"
                 - "./gemfiles/rails_60.gemfile"
                 - "./gemfiles/rails_52.gemfile"
                 - "./gemfiles/rails_50.gemfile"

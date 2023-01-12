@@ -69,6 +69,13 @@ appraise 'rails-60' do
   gem 'sqlite3', '~> 1.4'
 end
 
+appraise 'rails-70' do
+  gem 'rails', '>= 7.0', '< 7.1'
+  gem 'mysql2', '0.4.10'
+  gem 'pg'
+  gem 'sqlite3', '~> 1.4'
+end
+
 appraise 'redis-40' do
   gem 'redis', '>= 4.0.0', '< 5.0'
 end
